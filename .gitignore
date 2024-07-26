@@ -1,0 +1,46 @@
+# Ignore everything
+*
+
+# Allow these specific files
+!.gitignore
+!app.py
+!requirements.txt
+!.streamlit/
+!assets/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment folders
+venv/
+.env/
+myenv/
+
+# Ignore package directories
+build/
+dist/
+*.egg-info/
+
+# Ignore environment and secret files
+.env
+*.env
+
+# Ignore IDE settings and metadata
+.idea/
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore other temporary files
+*.bak
+*.swp
+*.tmp
+
+# Ignore compiled C extensions
+*.so
+
