@@ -179,7 +179,7 @@ def main():
     with st.expander("About the Team:"):
         left_co, cent_co,last_co = st.columns(3)
         with cent_co:
-            st.image("logo.png")
+            st.image("assets/logo.png")
         st.subheader("Agent 1")
         st.text("""       
         Role = Itinerary Planner
