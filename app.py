@@ -12,7 +12,7 @@ from crewai_tools import SerperDevTool
 from langchain_community.utilities.tavily_search import TavilySearchAPIWrapper
 from langchain_community.tools.tavily_search.tool import TavilySearchResults
 
-
+st.set_page_config(page_title="itinerary", page_icon="🧳")
 load_dotenv()
 groq_api_key = os.environ["GROQ_API_KEY"]
 tavily_api_key = os.environ["TAVILY_API_KEY"]
@@ -174,7 +174,7 @@ class StreamToExpander:
 
 
 def main():
-    st.set_page_config(page_title="travel", page_icon="🍙")
+    
     st.markdown("<h1 style='color: #004aad; text-align: center;'>Itinerary Planner</h1>", unsafe_allow_html=True)
     with st.expander("About the Team:"):
         left_co, cent_co,last_co = st.columns(3)
